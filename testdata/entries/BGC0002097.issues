@@ -1,0 +1,5 @@
+biosynthesis.classes[2].subclusters[0].genes[5]: error: duplicate of biosynthesis.classes[2].subclusters[0].genes[4] [duplicate]
+biosynthesis.classes[2].subclusters[0].genes[7]: error: duplicate of biosynthesis.classes[2].subclusters[0].genes[4] [duplicate]
+compounds[0].bioactivities[0].name: warning: bioactivity name uses the legacy object form, use a string and move the comment to details [legacy-format]
+compounds[0].bioactivities[1].name: warning: bioactivity name uses the legacy object form, use a string and move the comment to details [legacy-format]
+biosynthesis.classes[1].cyclases: warning: empty value [], remove the key [empty-value]

@@ -1,0 +1,17 @@
+{
+  "type": "adenylation",
+  "gene": "GENE1234.5",
+  "location": {
+    "from": 123,
+    "to": 234
+  },
+  "evidence": [
+    {
+      "name": "Structure-based inference",
+      "references": ["pubmed:12345"]
+    }
+  ],
+  "substrates": [
+    { "name": "proline", "proteinogenic": true, "structure": "N1C(CCC1)C(=O)O" }
+  ]
+}

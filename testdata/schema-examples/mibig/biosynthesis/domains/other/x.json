@@ -1,0 +1,9 @@
+{
+  "type": "other",
+  "subtype": "X",
+  "gene": "FAKE1234.5",
+  "location": {
+    "from": 23,
+    "to": 42
+  }
+}

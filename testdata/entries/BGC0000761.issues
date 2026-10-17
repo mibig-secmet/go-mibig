@@ -1,0 +1,1 @@
+compounds[0].bioactivities[0].name: warning: bioactivity name uses the legacy object form, use a string and move the comment to details [legacy-format]

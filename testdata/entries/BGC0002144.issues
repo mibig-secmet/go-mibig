@@ -1,0 +1,2 @@
+biosynthesis.classes[0].precursors[0].core_sequence: warning: core sequence is stored as a list, use a single string [legacy-format]
+compounds[0].bioactivities[0].name: warning: bioactivity name uses the legacy object form, use a string and move the comment to details [legacy-format]

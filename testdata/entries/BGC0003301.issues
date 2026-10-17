@@ -1,0 +1,4 @@
+biosynthesis.classes[0].details: warning: empty value "", remove the key [empty-value]
+biosynthesis.classes[0].cyclases: warning: unknown key "cyclases" with empty value [], remove it [unknown-field]
+biosynthesis.classes[0].subtype: warning: unknown key "subtype" with empty value "", remove it [unknown-field]
+compounds[0].formula: warning: empty value "", remove the key [empty-value]

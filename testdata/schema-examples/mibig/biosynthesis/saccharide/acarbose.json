@@ -1,0 +1,21 @@
+{
+  "class": "saccharide",
+  "glycosyltransferases": [
+    {
+      "gene": "CAJ81027.1",
+      "specificity": "C1(OP(=O)(O)OP(=O)(O)OCC2C(O)CC(N3C(=O)NC(=O)C(C)C3)O2)C(O)C(O)C(N)C(C)O1",
+      "evidence": {
+        "name": "Activity assay",
+        "references": ["doi:10.1038/s41467-022-31232-4"]
+      }
+    },
+    {
+      "gene": "CAJ81024.1",
+      "specificity": "C1(OC2C(O)C(O)C(CO)OC(CO3C(O)C(O)C(CO)OC(O)3)2)C(O)C(O)C(N)C(C)O1",
+      "evidence": {
+        "name": "Activity assay",
+        "references": ["doi:10.1038/s41467-022-31232-4"]
+      }
+    }
+  ]
+}

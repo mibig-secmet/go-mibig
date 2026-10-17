@@ -1,0 +1,1039 @@
+{
+  "accession": "BGC0099998",
+  "version": 1,
+  "changelog": {
+    "releases": [
+      {
+        "version": "4.0",
+        "entries": [
+          {
+            "contributors": [
+              "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "reviewers": [
+              "BBBBBBBBBBBBBBBBBBBBBBBB"
+            ],
+            "date": "2024-07-01",
+            "comment": "Submitted"
+          }
+        ],
+        "date": "2024-11-15"
+      }
+    ]
+  },
+  "quality": "high",
+  "status": "active",
+  "completeness": "complete",
+  "loci": [
+    {
+      "accession": "AB000001.1",
+      "location": {
+        "from": 1,
+        "to": 50000
+      },
+      "evidence": [
+        {
+          "method": "Knock-out studies",
+          "references": [
+            "pubmed:12345"
+          ]
+        }
+      ],
+      "draft_genome": false
+    }
+  ],
+  "biosynthesis": {
+    "classes": [
+      {
+        "class": "NRPS",
+        "subclass": "Type I",
+        "thioesterases": [
+          {
+            "type": "thioesterase",
+            "gene": "geneA",
+            "location": {
+              "from": 10,
+              "to": 300
+            },
+            "subtype": "Type I"
+          }
+        ],
+        "release_types": [
+          {
+            "name": "Other",
+            "details": "Dieckmann cyclisation",
+            "references": [
+              "pubmed:12345"
+            ]
+          }
+        ]
+      },
+      {
+        "class": "PKS",
+        "subclass": "Type I",
+        "cyclases": [
+          "geneC"
+        ],
+        "starter_unit": {
+          "name": "acetyl-CoA",
+          "structure": "CC(=O)S",
+          "references": [
+            "pubmed:12345"
+          ]
+        },
+        "ketide_length": 7,
+        "iterative": {},
+        "thioesterases": [
+          {
+            "type": "thioesterase",
+            "gene": "geneD",
+            "location": {
+              "from": 10,
+              "to": 300
+            }
+          }
+        ]
+      },
+      {
+        "class": "ribosomal",
+        "subclass": "RiPP",
+        "precursors": [
+          {
+            "gene": "geneE",
+            "core_sequence": "ITSISLC",
+            "leader_cleavage_location": {
+              "from": 1,
+              "to": 24
+            },
+            "follower_cleavage_location": {
+              "from": 32,
+              "to": 40
+            },
+            "crosslinks": [
+              {
+                "from": 3,
+                "to": 7,
+                "type": "thioether",
+                "details": "lanthionine"
+              }
+            ],
+            "recognition_motif": "FNLD"
+          }
+        ],
+        "ripp_type": "Lanthipeptide",
+        "details": "class I",
+        "peptidases": [
+          "geneF"
+        ]
+      },
+      {
+        "class": "saccharide",
+        "glycosyltransferases": [
+          {
+            "gene": "geneG",
+            "evidence": [
+              {
+                "method": "Activity assay",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ],
+            "specificity": "OCC1OC(O)C(O)C(O)C1O"
+          }
+        ],
+        "subclass": "oligosaccharide",
+        "subclusters": [
+          {
+            "genes": [
+              "geneH",
+              "geneI"
+            ],
+            "references": [
+              "pubmed:12345"
+            ],
+            "specificity": "OCC1OC(O)C(O)C(O)C1O"
+          }
+        ]
+      },
+      {
+        "class": "terpene",
+        "subclass": "Diterpene",
+        "prenyltransferases": [
+          "geneJ"
+        ],
+        "synthases_cyclases": [
+          "geneK"
+        ],
+        "precursor": "GGPP"
+      },
+      {
+        "class": "other",
+        "subclass": "other",
+        "details": "enigmatic"
+      }
+    ],
+    "modules": [
+      {
+        "type": "cal",
+        "name": "0",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "integrated_monomers": [
+          {
+            "name": "alanine",
+            "structure": "NC(C)C(=O)O",
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ],
+            "references": [
+              "pubmed:12345"
+            ]
+          }
+        ],
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "aminotransferase",
+            "gene": "geneA",
+            "location": {
+              "from": 500,
+              "to": 800
+            },
+            "inactive": false,
+            "references": [
+              "pubmed:12345"
+            ]
+          },
+          {
+            "type": "cyclase",
+            "gene": "geneA",
+            "location": {
+              "from": 810,
+              "to": 900
+            },
+            "references": [
+              "pubmed:12345"
+            ]
+          },
+          {
+            "type": "dehydratase",
+            "gene": "geneA",
+            "location": {
+              "from": 910,
+              "to": 1000
+            },
+            "active": true
+          }
+        ],
+        "cal": {
+          "type": "ligase",
+          "gene": "geneA",
+          "location": {
+            "from": 1,
+            "to": 9
+          }
+        },
+        "non_canonical_activity": {
+          "evidence": [
+            {
+              "method": "Activity assay",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "iterations": 2,
+          "nonElongating": false,
+          "skipped": false
+        },
+        "comment": "loading module"
+      },
+      {
+        "type": "nrps-type1",
+        "name": "1",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "epimerase",
+            "gene": "geneA",
+            "location": {
+              "from": 1110,
+              "to": 1200
+            }
+          }
+        ],
+        "a_domain": {
+          "type": "adenylation",
+          "gene": "geneA",
+          "location": {
+            "from": 10,
+            "to": 300
+          },
+          "references": [
+            "pubmed:12345"
+          ],
+          "substrates": [
+            {
+              "name": "alanine",
+              "structure": "NC(C)C(=O)O",
+              "proteinogenic": true
+            }
+          ],
+          "evidence": [
+            {
+              "method": "Structure-based inference",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "precursor_biosynthesis": [
+            "geneB"
+          ],
+          "inactive": false
+        },
+        "c_domain": {
+          "type": "condensation",
+          "gene": "geneA",
+          "location": {
+            "from": 1,
+            "to": 9
+          },
+          "subtype": "LCL",
+          "references": [
+            "pubmed:12345"
+          ]
+        }
+      },
+      {
+        "type": "nrps-type6",
+        "name": "2",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "enoylreductase",
+            "gene": "geneA",
+            "location": {
+              "from": 1010,
+              "to": 1100
+            }
+          }
+        ],
+        "a_domain": {
+          "type": "adenylation",
+          "gene": "geneA",
+          "location": {
+            "from": 10,
+            "to": 300
+          },
+          "references": [
+            "pubmed:12345"
+          ],
+          "substrates": [
+            {
+              "name": "alanine",
+              "structure": "NC(C)C(=O)O",
+              "proteinogenic": true
+            }
+          ],
+          "evidence": [
+            {
+              "method": "Structure-based inference",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "precursor_biosynthesis": [
+            "geneB"
+          ],
+          "inactive": false
+        }
+      },
+      {
+        "type": "other",
+        "name": "3",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "subtype": "NIS synthetase",
+        "modification_domains": [
+          {
+            "type": "hydroxylase",
+            "gene": "geneA",
+            "location": {
+              "from": 1210,
+              "to": 1300
+            }
+          }
+        ]
+      },
+      {
+        "type": "pks-iterative",
+        "name": "4",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "ketoreductase",
+            "gene": "geneA",
+            "location": {
+              "from": 1310,
+              "to": 1400
+            },
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ],
+            "inactive": false,
+            "stereochemistry": "B1"
+          },
+          {
+            "type": "methyltransferase",
+            "gene": "geneA",
+            "location": {
+              "from": 1410,
+              "to": 1500
+            },
+            "subtype": "other",
+            "details": "S-methylation"
+          },
+          {
+            "type": "other",
+            "gene": "geneA",
+            "location": {
+              "from": 1510,
+              "to": 1600
+            },
+            "subtype": "Pyran synthase",
+            "active": true
+          }
+        ],
+        "at_domain": {
+          "type": "acyltransferase",
+          "gene": "geneA",
+          "location": {
+            "from": 300,
+            "to": 600
+          },
+          "subtype": "cis-AT",
+          "substrates": [
+            {
+              "name": "other",
+              "structure": "CC(C(=O)O)C(=O)O",
+              "details": "methylmalonate"
+            }
+          ],
+          "evidence": [
+            {
+              "method": "Structure-based inference",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "inactive": false
+        },
+        "ks_domain": {
+          "type": "ketosynthase",
+          "gene": "geneA",
+          "location": {
+            "from": 1,
+            "to": 290
+          },
+          "active": true
+        },
+        "iterations": 3
+      },
+      {
+        "type": "pks-modular",
+        "name": "5",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "oxidase",
+            "gene": "geneA",
+            "location": {
+              "from": 1610,
+              "to": 1700
+            }
+          },
+          {
+            "type": "ligase",
+            "gene": "geneA",
+            "location": {
+              "from": 1710,
+              "to": 1800
+            },
+            "substrates": [
+              "CC(=O)O"
+            ],
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "thioesterase",
+            "gene": "geneA",
+            "location": {
+              "from": 1810,
+              "to": 1900
+            },
+            "subtype": "Type II"
+          }
+        ],
+        "at_domain": {
+          "type": "acyltransferase",
+          "gene": "geneA",
+          "location": {
+            "from": 300,
+            "to": 600
+          },
+          "subtype": "cis-AT",
+          "substrates": [
+            {
+              "name": "other",
+              "structure": "CC(C(=O)O)C(=O)O",
+              "details": "methylmalonate"
+            }
+          ],
+          "evidence": [
+            {
+              "method": "Structure-based inference",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "inactive": false
+        },
+        "ks_domain": {
+          "type": "ketosynthase",
+          "gene": "geneA",
+          "location": {
+            "from": 1,
+            "to": 290
+          },
+          "active": true
+        }
+      },
+      {
+        "type": "pks-modular-starter",
+        "name": "6",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "at_domain": {
+          "type": "acyltransferase",
+          "gene": "geneA",
+          "location": {
+            "from": 300,
+            "to": 600
+          },
+          "subtype": "cis-AT",
+          "substrates": [
+            {
+              "name": "other",
+              "structure": "CC(C(=O)O)C(=O)O",
+              "details": "methylmalonate"
+            }
+          ],
+          "evidence": [
+            {
+              "method": "Structure-based inference",
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "inactive": false
+        }
+      },
+      {
+        "type": "pks-trans-at",
+        "name": "7",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "modification_domains": [
+          {
+            "type": "thioreductase",
+            "gene": "geneA",
+            "location": {
+              "from": 1910,
+              "to": 2000
+            }
+          },
+          {
+            "type": "branching",
+            "gene": "geneA",
+            "location": {
+              "from": 2010,
+              "to": 2100
+            }
+          },
+          {
+            "type": "product_template",
+            "gene": "geneA",
+            "location": {
+              "from": 2110,
+              "to": 2200
+            }
+          }
+        ],
+        "ks_domain": {
+          "type": "ketosynthase",
+          "gene": "geneA",
+          "location": {
+            "from": 1,
+            "to": 290
+          },
+          "active": true
+        }
+      },
+      {
+        "type": "pks-trans-at-starter",
+        "name": "8",
+        "genes": [
+          "geneA"
+        ],
+        "active": true,
+        "carriers": [
+          {
+            "type": "carrier",
+            "gene": "geneA",
+            "location": {
+              "from": 400,
+              "to": 470
+            },
+            "subtype": "PCP",
+            "inactive": false,
+            "beta_branching": false,
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "operons": [
+      {
+        "genes": [
+          "geneA",
+          "geneB"
+        ],
+        "evidence": [
+          {
+            "method": "RNAseq",
+            "references": [
+              "pubmed:12345"
+            ]
+          }
+        ]
+      }
+    ],
+    "paths": [
+      {
+        "products": [
+          {
+            "name": "intermediate",
+            "structure": "CC",
+            "comment": "first step"
+          }
+        ],
+        "steps": "geneA > geneB",
+        "references": [
+          "pubmed:12345"
+        ],
+        "isSubcluster": false,
+        "producesPrecursor": true
+      }
+    ]
+  },
+  "compounds": [
+    {
+      "name": "examplin A",
+      "evidence": [
+        {
+          "method": "Other",
+          "details": "UV spectrum",
+          "references": [
+            "pubmed:12345"
+          ]
+        }
+      ],
+      "classes": [
+        "Lipopeptide"
+      ],
+      "bioactivities": [
+        {
+          "name": "antibacterial",
+          "observed": true,
+          "references": [
+            "pubmed:12345"
+          ],
+          "assays": [
+            {
+              "concentration": "5 ug/ml",
+              "target": "Bacillus subtilis",
+              "measurement": {
+                "concentration": 5.0,
+                "unit": "ug/ml",
+                "error": 0.5,
+                "replicates": 3
+              },
+              "type": "MIC",
+              "details": "broth dilution",
+              "test_system": {
+                "cell_line": "none",
+                "organism": 1423,
+                "strain": "168"
+              },
+              "references": [
+                "pubmed:12345"
+              ]
+            }
+          ],
+          "details": "weak"
+        }
+      ],
+      "structure": "CC(N)C(=O)O",
+      "partial_structure": false,
+      "synonyms": [
+        "examplin"
+      ],
+      "databaseIds": [
+        "pubchem:5950",
+        "npatlas:NPA000001"
+      ],
+      "moieties": [
+        "alanine"
+      ],
+      "targets": [
+        {
+          "protein": "MurA"
+        }
+      ],
+      "cyclic": false,
+      "mass": 89.0477,
+      "formula": "C3H7NO2"
+    }
+  ],
+  "taxonomy": {
+    "name": "Streptomyces coelicolor A3(2)",
+    "ncbiTaxId": 100226
+  },
+  "genes": {
+    "to_add": [
+      {
+        "id": "orfX",
+        "location": {
+          "exons": [
+            {
+              "from": 100,
+              "to": 400
+            },
+            {
+              "from": 500,
+              "to": 800
+            }
+          ],
+          "strand": -1
+        },
+        "translation": "MKLV"
+      }
+    ],
+    "to_delete": [
+      {
+        "id": "orfY",
+        "reason": "Pseudogene"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "geneA",
+        "name": "exaA",
+        "aliases": [
+          "ORF1"
+        ],
+        "product": "NRPS",
+        "functions": [
+          {
+            "function": {
+              "name": "Other",
+              "details": "self-resistance"
+            },
+            "evidence": [
+              {
+                "method": "Knock-out",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ],
+            "mutation_phenotype": {
+              "phenotype": "no production",
+              "references": [
+                "pubmed:12345"
+              ],
+              "details": "deletion"
+            }
+          }
+        ],
+        "tailoring": [
+          {
+            "function": "Methylation",
+            "references": [
+              "pubmed:12345"
+            ],
+            "db_reference": "mite:MITE0000001",
+            "details": "N-methylation"
+          }
+        ],
+        "domains": [
+          {
+            "type": "amp-binding",
+            "gene": "geneA",
+            "location": {
+              "from": 10,
+              "to": 300
+            },
+            "substrates": [
+              {
+                "name": "proline",
+                "structure": "N1C(CCC1)C(=O)O",
+                "proteinogenic": true
+              }
+            ],
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ]
+          }
+        ],
+        "mutation_phenotype": {
+          "phenotype": "abolished",
+          "references": [
+            "pubmed:12345"
+          ]
+        },
+        "comment": "core NRPS"
+      }
+    ],
+    "domains": [
+      {
+        "location": {
+          "from": 10,
+          "to": 300
+        },
+        "name": "AMP-binding",
+        "substrates": [
+          {
+            "evidence": [
+              {
+                "method": "Structure-based inference",
+                "references": [
+                  "pubmed:12345"
+                ]
+              }
+            ],
+            "structure": "N1C(CCC1)C(=O)O"
+          }
+        ]
+      }
+    ]
+  },
+  "retirement_reasons": [
+    "none, kept for testing"
+  ],
+  "see_also": [
+    "BGC0000001"
+  ],
+  "comment": "Uses every part of the schema"
+}

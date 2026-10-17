@@ -1,0 +1,9 @@
+{
+  "type": "thioesterase",
+  "gene": "GENE1234.5",
+  "location": {
+    "from": 123,
+    "to": 234
+  },
+  "subtype": "Type I"
+}

@@ -1,0 +1,6 @@
+biosynthesis.classes[0].precursors: warning: unknown key "precursors" with empty value [], remove it [unknown-field]
+biosynthesis.classes[0].subtype: warning: unknown key "subtype" with empty value "", remove it [unknown-field]
+compounds[0].evidence[0].details: warning: empty value "", remove the key [empty-value]
+compounds[0].evidence[1].details: warning: empty value "", remove the key [empty-value]
+compounds[1].evidence[0].details: warning: empty value "", remove the key [empty-value]
+compounds[1].evidence[1].details: warning: empty value "", remove the key [empty-value]

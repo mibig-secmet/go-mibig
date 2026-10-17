@@ -1,0 +1,8 @@
+{
+  "type": "aminotransferase",
+  "gene": "ABS74182.1",
+  "location": {
+    "from": 1539,
+    "to": 1869
+  }
+}

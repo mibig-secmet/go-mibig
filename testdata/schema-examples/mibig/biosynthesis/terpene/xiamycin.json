@@ -1,0 +1,7 @@
+{
+  "class": "terpene",
+  "subclass": "Sesquiterpene",
+  "prenyltransferases": ["CCH63739.1"],
+  "synthases_cyclases": ["CCH63731.1"],
+  "precursor": "FPP"
+}

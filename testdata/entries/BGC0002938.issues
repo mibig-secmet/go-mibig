@@ -1,0 +1,2 @@
+biosynthesis.classes[0].synthases: warning: "synthases" is the legacy name of "synthases_cyclases" [legacy-format]
+compounds: error: at least one compound is required [required]

@@ -1,0 +1,10 @@
+{
+  "name": "Alanine",
+  "structure": "NC(C)C(=O)O",
+  "evidence": [
+    {
+      "name": "Structure-based inference",
+      "references": ["pubmed:123456"]
+    }
+  ]
+}

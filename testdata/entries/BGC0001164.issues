@@ -1,0 +1,3 @@
+biosynthesis.classes[0].cyclases: warning: empty value [], remove the key [empty-value]
+biosynthesis.modules[0].at_domain.substrates: warning: empty value [], remove the key [empty-value]
+biosynthesis.modules[0].at_domain.evidence: warning: empty value [], remove the key [empty-value]

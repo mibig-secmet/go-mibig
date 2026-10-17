@@ -1,0 +1,10 @@
+{
+  "iterations": 0,
+  "skipped": true,
+  "evidence": [
+    {
+      "name": "Sequence-based prediction",
+      "references": ["pubmed:12345"]
+    }
+  ]
+}

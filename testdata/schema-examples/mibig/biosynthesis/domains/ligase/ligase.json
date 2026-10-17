@@ -1,0 +1,8 @@
+{
+  "type": "ligase",
+  "gene": "ABS74181.1",
+  "location": {
+    "from": 36,
+    "to": 478
+  }
+}

@@ -1,0 +1,2 @@
+compounds: error: at least one compound is required [required]
+biosynthesis.classes[0].cyclases: warning: empty value [], remove the key [empty-value]

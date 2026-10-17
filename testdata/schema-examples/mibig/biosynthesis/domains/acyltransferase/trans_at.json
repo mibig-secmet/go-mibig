@@ -1,0 +1,20 @@
+{
+  "type": "acyltransferase",
+  "subtype": "trans-AT",
+  "gene": "ABS74182.1",
+  "location": {
+    "from": 6,
+    "to": 290
+  },
+  "substrates": [
+    {
+      "name": "malonyl-CoA"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "Structure-based inference",
+      "references": ["pubmed:12345"]
+    }
+  ]
+}

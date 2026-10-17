@@ -1,0 +1,15 @@
+{
+  "type": "ketoreductase",
+  "gene": "CAM00062.1",
+  "location": {
+    "from": 1665,
+    "to": 1843
+  },
+  "stereochemistry": "B2",
+  "evidence": [
+    {
+      "name": "Structure-based inference",
+      "references": ["pubmed:12345"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "carrier",
+  "subtype": "ACP",
+  "gene": "GENE1234.5",
+  "location": {
+    "from": 123,
+    "to": 234
+  },
+  "beta_branching": true,
+  "evidence": [
+    {
+      "name": "Structure-based inference",
+      "references": ["pubmed:12345"]
+    }
+  ]
+}
